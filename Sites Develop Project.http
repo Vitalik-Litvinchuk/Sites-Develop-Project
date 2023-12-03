@@ -1,0 +1,6 @@
+@Sites_Develop_Project_HostAddress = http://localhost:5246
+
+GET {{Sites_Develop_Project_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

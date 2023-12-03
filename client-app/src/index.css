@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Italianno&display=swap');
+
+@import url('node_modules/bootstrap/dist/css/bootstrap.css');
+@import url('../node_modules/font-awesome/css/font-awesome.css');
+
+@import url('./components/HomePage/style.css');
+@import url('./components/containers/Footer/style.css');
+@import url('./components/containers/Header/style.css');
+@import url('./components/containers/Layout/style.css');
+@import url('./components/auth/Login/style.css');
+@import url('./components/auth/Register/style.css');
+@import url('./components/auth/Logout/style.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.w-300px {
+  width: 300px;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: gray;
+}
+
+.font-header {
+  font-family: Cinzel Decorative;
+}
+
+.font-text {
+  font-size: 30px;
+  font-family: Italianno;
+}
+
+#root {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.15) 0%, rgba(20, 20, 20, 0.15) 85%, rgba(158, 158, 158, 1) 100%),
+    radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(181, 218, 183, 1) 40%, rgba(148, 187, 233, 1) 100%);
+  filter: sepia(.75) invert(.1);
+}
+
+.invert-25 {
+  filter: invert(.25);
+}
+
+.site-font {
+  font-size: 20px;
+}
+
+.logo-invert-100 {
+  filter: invert(1);
+}
+
+.main-logo {
+  width: 65px;
+}
