@@ -14,11 +14,6 @@ namespace Sites_Develop_Project.Inits
             // Add FluentValidation
             services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<LoginValidator>());
 
-            // Add Google OAuth2.0 ClientId
-            services.AddSingleton(
-                configuration.GetSection("GoogleAuthSettings")
-                .Get<GoogleAuthSettings>());
-
             return services;
         }
     }
